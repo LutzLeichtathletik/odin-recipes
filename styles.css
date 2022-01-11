@@ -1,0 +1,30 @@
+* {
+    color: rgb(68, 67, 67);
+    width: 750px;
+    align-items: center;
+    text-align:justify;
+    margin: auto;
+}
+
+p, li {
+    font-family: sans-serif;
+}
+
+.intro {
+    background-color: rgb(243, 243, 243);
+}
+
+img {
+    height: auto;
+    width: 750px;
+}
+
+.ingrediants, .prepare {
+    background-color: lavender;
+}
+
+h1 {
+    background-color: lightblue;
+    font-size: 4vw;
+    text-align: center;
+}
