@@ -1,17 +1,23 @@
 * {
     color: rgb(68, 67, 67);
-    width: 750px;
-    align-items: center;
-    text-align:justify;
-    margin: auto;
+    padding-left: 40px;
+    padding-right: 30px;
+    box-sizing: border-box;
 }
 
 p, li {
     font-family: sans-serif;
+    font-size: 100%;
+    padding-left: 0px;
 }
 
-.intro {
-    background-color: rgb(243, 243, 243);
+ul, ol {
+    margin: 20px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
 }
 
 img {
@@ -19,12 +25,23 @@ img {
     width: 750px;
 }
 
-.ingrediants, .prepare {
-    background-color: lavender;
+.ingrediants, .prepare, .intro {
+    text-align: justify;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
     background-color: lightblue;
-    font-size: 4vw;
+    font-size: 150%;
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(181, 220, 233);
+    font-size: 125%;
     text-align: center;
 }
